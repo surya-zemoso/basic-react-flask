@@ -1,0 +1,95 @@
+body {
+  background: aliceblue;
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h3 {
+  /* color: #ffffff; */
+  text-transform: uppercase;
+  font-weight: 800;
+}
+p {
+  font-weight: 600;
+  /* color: black; */
+}
+.formBody {
+  text-align: center;
+}
+.formInput {
+  width: 125px;
+  margin-left: 10px !important;
+  position: relative !important;
+  /* background-color: aliceblue; */
+  /* border: 1px solid#ced4da !important; */
+  border-radius: 4px !important;
+  font-size: 16 !important;
+  height: 40px;
+  padding: 0px 10px 10px 10px !important;
+}
+.MuiInputLabel-formControl {
+  left: 10px !important;
+}
+.form-select {
+}
+.formDate {
+  width: 175px !important;
+}
+.formButton {
+  margin-left: 10px !important;
+  padding: 8px 10px 10px 10px !important;
+}
+.layoutRow {
+  display: inline-flex;
+  /* float: left !important;
+  padding-left: 100px; */
+}
+.MuiTableBody-root {
+  height: 500px !important;
+}
+.switchButton {
+  padding-left: 20px;
+}
+.MuiDrawer-paper {
+  top: 64px !important;
+  width: 225px !important;
+}
+.MuiInput-underline:before,
+.MuiInput-underline:after {
+  border-bottom: none !important;
+}
+.MuiInputBase-root {
+  padding-left: 15px;
+}
+.admin-message {
+  padding: 10px;
+  display: inline-flex !important;
+  width: 100%;
+}
+.admin-list-message {
+  margin: 5px;
+  background-color: #dcdcdc;
+  min-width: 100px;
+  /* max-width: 80%; */
+  border-radius: 15px;
+  padding: 3px 10px 0px 10px;
+  word-wrap: break-word;
+}
+.user-message {
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+}
+.user-list-message {
+  margin: 5px;
+  background-color: #0084ff;
+  color: #fff !important;
+  min-width: 100px;
+  /* max-width: 80%; */
+  border-radius: 15px;
+  padding: 3px 10px 0px 10px;
+  word-wrap: break-word;
+}
+.message_holder {
+  overflow-y: auto;
+  height: 83%;
+}
